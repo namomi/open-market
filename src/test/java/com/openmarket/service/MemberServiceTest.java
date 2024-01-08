@@ -2,7 +2,6 @@ package com.openmarket.service;
 
 import com.openmarket.dto.MemberFormDto;
 import com.openmarket.entity.Member;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -10,7 +9,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.test.context.TestPropertySource;
 import org.springframework.transaction.annotation.Transactional;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 @SpringBootTest
 @Transactional
@@ -54,11 +54,11 @@ class MemberServiceTest {
     }
 
     public Member createMember() {
-        MemberFormDto memberFormDto = new MemberFormDto(
-                "test",
-                "test@gmail.com",
-                "1234",
-                "경기도 김포시 양촌읍");
+        MemberFormDto memberFormDto = new MemberFormDto();
+        memberFormDto.setName("test");
+        memberFormDto.setEmail("test@gmail.com");
+        memberFormDto.setPassword("1234");
+        memberFormDto.setAddress("경기도 양촌읍");
         return Member.createMember(memberFormDto, passwordEncoder);
     }
 
