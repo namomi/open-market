@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.openmarket.repository.ItemRepositoryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-01-08T08:49:44" hostname="JCui-Macmini.local" time="0.18">
+<testsuite name="com.openmarket.repository.ItemRepositoryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-01-09T09:19:19" hostname="JCui-Macmini.local" time="0.066">
   <properties/>
-  <testcase name="findByItemNeTest()" classname="com.openmarket.repository.ItemRepositoryTest" time="0.176"/>
-  <testcase name="createdItemList()" classname="com.openmarket.repository.ItemRepositoryTest" time="0.003"/>
-  <system-out><![CDATA[2024-01-08 17:49:44.325  INFO 16031 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.openmarket.repository.ItemRepositoryTest], using SpringBootContextLoader
-2024-01-08 17:49:44.326  INFO 16031 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.openmarket.repository.ItemRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-2024-01-08 17:49:44.326  INFO 16031 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.openmarket.repository.ItemRepositoryTest]: ItemRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2024-01-08 17:49:44.330  INFO 16031 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.openmarket.OpenMarketApplication for test class com.openmarket.repository.ItemRepositoryTest
-2024-01-08 17:49:44.331  INFO 16031 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-2024-01-08 17:49:44.331  INFO 16031 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@28df2da8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@30b5f974, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@37227aa7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@57e2d15c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6810465, org.springframework.test.context.support.DirtiesContextTestExecutionListener@19e03398, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3d339541, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7c1adb8a, org.springframework.test.context.event.EventPublishingTestExecutionListener@72364a40, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6ad2cb6d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4b6ad2eb, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@61868687, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2122b4bd, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5dd79a57, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@40b7e68c]
+  <testcase name="findByItemNeTest()" classname="com.openmarket.repository.ItemRepositoryTest" time="0.062"/>
+  <testcase name="createdItemList()" classname="com.openmarket.repository.ItemRepositoryTest" time="0.004"/>
+  <system-out><![CDATA[2024-01-09 18:19:19.225  INFO 10518 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.openmarket.repository.ItemRepositoryTest], using SpringBootContextLoader
+2024-01-09 18:19:19.225  INFO 10518 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.openmarket.repository.ItemRepositoryTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2024-01-09 18:19:19.225  INFO 10518 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.openmarket.repository.ItemRepositoryTest]: ItemRepositoryTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-01-09 18:19:19.227  INFO 10518 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.openmarket.OpenMarketApplication for test class com.openmarket.repository.ItemRepositoryTest
+2024-01-09 18:19:19.228  INFO 10518 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2024-01-09 18:19:19.228  INFO 10518 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1f81b020, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@56c95789, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@65dff28b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1e499f1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@13f6395d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@f1f41b5, org.springframework.test.context.transaction.TransactionalTestExecutionListener@154ea177, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@30c0993e, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@12de62aa, org.springframework.test.context.event.EventPublishingTestExecutionListener@67398bad, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@71cdb24, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@33a1bb90, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@520b547c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@79c4c973, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@18e0f894, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2623ad23, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@2e03b52f]
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -16,16 +16,16 @@
  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
   '  |____| .__|_| |_|_| |_\__, | / / / /
  =========|_|==============|___/=/_/_/_/
- :: Spring Boot ::                (v2.6.4)
+ :: Spring Boot ::                (v2.7.1)
 
-2024-01-08 17:49:44.344  INFO 16031 --- [    Test worker] c.o.repository.ItemRepositoryTest        : Starting ItemRepositoryTest using Java 11.0.13 on JCui-Macmini.local with PID 16031 (started by jc in /Users/jc/Library/Mobile Documents/com~apple~CloudDocs/programing/open-market)
-2024-01-08 17:49:44.345  INFO 16031 --- [    Test worker] c.o.repository.ItemRepositoryTest        : No active profile set, falling back to 1 default profile: "default"
-2024-01-08 17:49:44.410  INFO 16031 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-01-08 17:49:44.421  INFO 16031 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 2 JPA repository interfaces.
-2024-01-08 17:49:44.482  INFO 16031 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-01-08 17:49:44.484  INFO 16031 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2024-01-08 17:49:44.565  INFO 16031 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2024-01-08 17:49:44.567  INFO 16031 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-01-09 18:19:19.237  INFO 10518 --- [    Test worker] c.o.repository.ItemRepositoryTest        : Starting ItemRepositoryTest using Java 11.0.13 on JCui-Macmini.local with PID 10518 (started by jc in /Users/jc/Library/Mobile Documents/com~apple~CloudDocs/programing/open-market)
+2024-01-09 18:19:19.237  INFO 10518 --- [    Test worker] c.o.repository.ItemRepositoryTest        : No active profile set, falling back to 1 default profile: "default"
+2024-01-09 18:19:19.290  INFO 10518 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-01-09 18:19:19.295  INFO 10518 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 2 JPA repository interfaces.
+2024-01-09 18:19:19.342  INFO 10518 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-01-09 18:19:19.344  INFO 10518 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-01-09 18:19:19.345  INFO 10518 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-01-09 18:19:19.345  INFO 10518 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
 Hibernate: 
     
     drop table if exists item CASCADE 
@@ -64,15 +64,11 @@ Hibernate:
     
     alter table member 
        add constraint UK_mbmcqelty0fbrvxp1q58dn57t unique (email)
-2024-01-08 17:49:44.619  INFO 16031 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2024-01-08 17:49:44.620  INFO 16031 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-01-08 17:49:44.640  WARN 16031 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-01-08 17:49:44.697  INFO 16031 --- [    Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
-
-Using generated security password: b2813509-0dd3-4c3b-b059-3fb72dd3214a
-
-2024-01-08 17:49:44.721  INFO 16031 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
-2024-01-08 17:49:44.931  INFO 16031 --- [    Test worker] c.o.repository.ItemRepositoryTest        : Started ItemRepositoryTest in 0.598 seconds (JVM running for 4.899)
+2024-01-09 18:19:19.366  INFO 10518 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-01-09 18:19:19.366  INFO 10518 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-01-09 18:19:19.374  WARN 10518 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-01-09 18:19:19.431  INFO 10518 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@9918487, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4cdd0f2f, org.springframework.security.web.context.SecurityContextPersistenceFilter@4467c026, org.springframework.security.web.header.HeaderWriterFilter@1c0455c4, org.springframework.security.web.csrf.CsrfFilter@6b1e72a4, org.springframework.security.web.authentication.logout.LogoutFilter@11c95035, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@64dd94ed, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@29db9746, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@17cf5dcc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@17cea679, org.springframework.security.web.session.SessionManagementFilter@5c74025e, org.springframework.security.web.access.ExceptionTranslationFilter@5da61ee2]
+2024-01-09 18:19:19.596  INFO 10518 --- [    Test worker] c.o.repository.ItemRepositoryTest        : Started ItemRepositoryTest in 0.367 seconds (JVM running for 5.577)
 Hibernate: 
     call next value for hibernate_sequence
 Hibernate: 
@@ -82,14 +78,14 @@ Hibernate:
         (item_detail, item_nm, item_sell_status, price, reg_time, stock_number, update_time, item_id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?)
-2024-01-08 17:49:44.963 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [CLOB] - [테스트 상품 상세 설명]
-2024-01-08 17:49:44.965 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [테스트 상품]
-2024-01-08 17:49:44.965 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [SELL]
-2024-01-08 17:49:44.965 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [INTEGER] - [10000]
-2024-01-08 17:49:44.965 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [TIMESTAMP] - [2024-01-08T17:49:44.933558]
-2024-01-08 17:49:44.968 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [INTEGER] - [100]
-2024-01-08 17:49:44.968 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [7] as [TIMESTAMP] - [2024-01-08T17:49:44.933581]
-2024-01-08 17:49:44.970 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [8] as [BIGINT] - [1]
+2024-01-09 18:19:19.601 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [CLOB] - [테스트 상품 상세 설명]
+2024-01-09 18:19:19.602 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [테스트 상품]
+2024-01-09 18:19:19.602 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [SELL]
+2024-01-09 18:19:19.602 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [INTEGER] - [10000]
+2024-01-09 18:19:19.602 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [TIMESTAMP] - [2024-01-09T18:19:19.599011]
+2024-01-09 18:19:19.603 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [INTEGER] - [100]
+2024-01-09 18:19:19.603 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [7] as [TIMESTAMP] - [2024-01-09T18:19:19.599026]
+2024-01-09 18:19:19.603 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [8] as [BIGINT] - [1]
 Hibernate: 
     select
         item0_.item_id as item_id1_0_,
@@ -104,16 +100,16 @@ Hibernate:
         item item0_ 
     where
         item0_.item_nm=?
-2024-01-08 17:49:45.095 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [테스트 상품]
-2024-01-08 17:49:45.096 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_id1_0_] : [BIGINT]) - [1]
-2024-01-08 17:49:45.098 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_det2_0_] : [CLOB]) - [테스트 상품 상세 설명]
-2024-01-08 17:49:45.098 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nm3_0_] : [VARCHAR]) - [테스트 상품]
-2024-01-08 17:49:45.098 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_sel4_0_] : [VARCHAR]) - [SELL]
-2024-01-08 17:49:45.098 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price5_0_] : [INTEGER]) - [10000]
-2024-01-08 17:49:45.098 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([reg_time6_0_] : [TIMESTAMP]) - [2024-01-08T17:49:44.933558]
-2024-01-08 17:49:45.099 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([stock_nu7_0_] : [INTEGER]) - [100]
-2024-01-08 17:49:45.099 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([update_t8_0_] : [TIMESTAMP]) - [2024-01-08T17:49:44.933581]
-Item(id=1, itemNm=테스트 상품, price=10000, stockNumber=100, itemDetail=테스트 상품 상세 설명, itemSellStatus=SELL, regTime=2024-01-08T17:49:44.933558, updateTime=2024-01-08T17:49:44.933581)
+2024-01-09 18:19:19.648 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [VARCHAR] - [테스트 상품]
+2024-01-09 18:19:19.648 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_id1_0_] : [BIGINT]) - [1]
+2024-01-09 18:19:19.651 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_det2_0_] : [CLOB]) - [테스트 상품 상세 설명]
+2024-01-09 18:19:19.651 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_nm3_0_] : [VARCHAR]) - [테스트 상품]
+2024-01-09 18:19:19.651 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([item_sel4_0_] : [VARCHAR]) - [SELL]
+2024-01-09 18:19:19.651 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([price5_0_] : [INTEGER]) - [10000]
+2024-01-09 18:19:19.652 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([reg_time6_0_] : [TIMESTAMP]) - [2024-01-09T18:19:19.599011]
+2024-01-09 18:19:19.652 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([stock_nu7_0_] : [INTEGER]) - [100]
+2024-01-09 18:19:19.652 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicExtractor   : extracted value ([update_t8_0_] : [TIMESTAMP]) - [2024-01-09T18:19:19.599026]
+Item(id=1, itemNm=테스트 상품, price=10000, stockNumber=100, itemDetail=테스트 상품 상세 설명, itemSellStatus=SELL, regTime=2024-01-09T18:19:19.599011, updateTime=2024-01-09T18:19:19.599026)
 Hibernate: 
     call next value for hibernate_sequence
 Hibernate: 
@@ -123,14 +119,14 @@ Hibernate:
         (item_detail, item_nm, item_sell_status, price, reg_time, stock_number, update_time, item_id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?)
-2024-01-08 17:49:45.110 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [CLOB] - [테스트 상품 상세 설명]
-2024-01-08 17:49:45.111 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [테스트 상품]
-2024-01-08 17:49:45.111 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [SELL]
-2024-01-08 17:49:45.111 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [INTEGER] - [10000]
-2024-01-08 17:49:45.111 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [TIMESTAMP] - [2024-01-08T17:49:45.110079]
-2024-01-08 17:49:45.111 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [INTEGER] - [100]
-2024-01-08 17:49:45.111 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [7] as [TIMESTAMP] - [2024-01-08T17:49:45.110091]
-2024-01-08 17:49:45.111 TRACE 16031 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [8] as [BIGINT] - [2]
+2024-01-09 18:19:19.661 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [1] as [CLOB] - [테스트 상품 상세 설명]
+2024-01-09 18:19:19.661 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [2] as [VARCHAR] - [테스트 상품]
+2024-01-09 18:19:19.661 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [3] as [VARCHAR] - [SELL]
+2024-01-09 18:19:19.661 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [4] as [INTEGER] - [10000]
+2024-01-09 18:19:19.662 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [5] as [TIMESTAMP] - [2024-01-09T18:19:19.661057]
+2024-01-09 18:19:19.662 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [6] as [INTEGER] - [100]
+2024-01-09 18:19:19.662 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [7] as [TIMESTAMP] - [2024-01-09T18:19:19.661068]
+2024-01-09 18:19:19.662 TRACE 10518 --- [    Test worker] o.h.type.descriptor.sql.BasicBinder      : binding parameter [8] as [BIGINT] - [2]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
