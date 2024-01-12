@@ -28,6 +28,12 @@ public class MemberController {
         return "member/memberForm";
     }
 
+    @GetMapping("/admin/new")
+    public String adminMemberForm(Model model) {
+        model.addAttribute("memberFormDto", new MemberFormDto());
+        return "member/adminForm";
+    }
+
     @PostMapping("/new")
     public String newForm(@Valid MemberFormDto memberFormDto, BindingResult bindingResult, Model model) {
         if(bindingResult.hasErrors()) {
@@ -36,6 +42,23 @@ public class MemberController {
 
         try{
             Member member = Member.createMember(memberFormDto, passwordEncoder);
+            memberService.saveMember(member);
+        } catch (IllegalStateException e){
+            model.addAttribute("errorMessage", e.getMessage());
+            return "member/adminForm";
+        }
+
+        return "redirect:/";
+    }
+
+    @PostMapping("/admin/new")
+    public String newAdminForm(@Valid MemberFormDto memberFormDto, BindingResult bindingResult, Model model) {
+        if(bindingResult.hasErrors()) {
+            return "member/memberForm";
+        }
+
+        try{
+            Member member = Member.createAdmin(memberFormDto, passwordEncoder);
             memberService.saveMember(member);
         } catch (IllegalStateException e){
             model.addAttribute("errorMessage", e.getMessage());

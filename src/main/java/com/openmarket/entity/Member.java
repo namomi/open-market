@@ -36,4 +36,15 @@ public class Member {
 
         return member;
     }
+
+    public static Member createAdmin(MemberFormDto memberFormDto, PasswordEncoder passwordEncoder) {
+        String password = passwordEncoder.encode(memberFormDto.getPassword());
+        Member member = new Member(memberFormDto.getName(),
+                            memberFormDto.getEmail(),
+                            password,
+                            memberFormDto.getAddress(),
+                            Role.ADMIN);
+
+        return member;
+    }
 }
